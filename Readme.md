@@ -2,6 +2,7 @@
 
 * Студент: [Юлия Перелыгина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2368575).
 * Наставник: [Вадим Новаш](https://htmlacademy.ru/profile/stakeout).
+* Сайт [Мой проект Седона](https://julyova.github.io/2368575-sedona-2/)
 
 ---
 
