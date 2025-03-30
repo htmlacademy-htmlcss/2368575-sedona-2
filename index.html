@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <div class="main-page">
+    <div class="container">
     <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
@@ -45,9 +45,8 @@
       </nav>
     </header>
 
-    <main class="main-container main-index" data-test="main">
-      <div class="page-container">
-      <section class="hero" data-test="hero">
+    <main class="page-container main-index" data-test="main">
+       <section class="hero" data-test="hero">
         <h1 class="visually-hidden">Sedona</h1>
         <img class="main-image" src="images/welcome.svg" width="458" height="352" alt="<Welcome to Sedona>">
       </section>
@@ -57,26 +56,40 @@
         <p class="advantages-town-reasons">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="advantages-town-list">
           <li class="advantages-town-item white">
-            <h3>Настоящий городок</h3>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="images/advantages-photo-1.jpg" width="800" height="385" alt="Фотография города Седона">
-          </li>
+            <div class="text-wrap">
+              <h3>Настоящий городок</h3>
+              <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div class="image-wrap">
+              <img src="images/advantages-photo-1.jpg" width="800" height="385" alt="Фотография города Седона">
+            </div>
+            </li>
           <li class="advantages-town-item black light-blue-background">
-            <h3>Небольшая площадь</h3>
+            <div class="text-wrap">
+              <h3>Небольшая площадь</h3>
             <p>Все достопримечательности находятся очень близко</p>
+          </div>
           </li>
           <li class="advantages-town-item black dark-blue-background">
-            <h3>Красивая дорога</h3>
+            <div class="text-wrap">
+              <h3>Красивая дорога</h3>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
           </li>
           <li class="advantages-town-item black light-blue-background">
-            <h3>Мало туристов</h3>
+            <div class="text-wrap">
+              <h3>Мало туристов</h3>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </div>
           </li>
           <li class="advantages-town-item white">
-            <img src="images/advantages-photo-2.jpg" width="800" height="385" alt="Фотография моста дьявола">
-            <h3>Там есть мост дьявола</h3>
+            <div class="text-wrap">
+              <h3>Там есть мост дьявола</h3>
             <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
+          <div class="image-wrap">
+            <img src="images/advantages-photo-2.jpg" width="800" height="385" alt="Фотография моста дьявола">
+          </div>
           </li>
         </ul>
       </section>
@@ -117,13 +130,12 @@
           </button>
         </form>
       </section>
-      </div>
     </main>
     <footer class="page-footer" data-test="footer">
       <div class="page-footer-container">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="button" href="#">
+          <a class="button" href="#" target="_blank">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
