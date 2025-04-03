@@ -737,22 +737,18 @@ body {
 .search-field {
   width: 440px;
   padding: 12px 20px;
+  padding-right: 46px;
   border-radius: 4px;
   font-weight: 700;
 }
 
-.button-calendar {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  background-color: transparent;
-  border: none;
+.icon-calendar {
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
   cursor: pointer;
+  background-size: 16px 15px;
+  background-position-x: 402px;
+  background-position-y: center;
 }
 
 .warning {
