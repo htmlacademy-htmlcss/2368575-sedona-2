@@ -976,6 +976,7 @@ body {
   padding-bottom: 70px;
   background-image: url("../images/catalog-filter-background.jpg");
   background-size: cover;
+  background-position: center calc(50% - 1px);
   background-repeat: no-repeat;
   color: #ffffff;
   background-color: #84929e;
