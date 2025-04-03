@@ -391,7 +391,7 @@ body {
 }
 
 .services-icon-home::before {
-  background-image: url("../images/home.svg");
+  background-image: url("../images/house.svg");
 }
 
 .services-icon-food::before {
