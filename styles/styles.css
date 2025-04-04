@@ -85,7 +85,8 @@ body {
 }
 
 .navigation-logo:hover,
-.navigation-logo:active {
+.navigation-logo:active,
+.navigation-logo:focus {
   opacity: 0.5;
 }
 
@@ -117,7 +118,8 @@ body {
 }
 
 .navigation-link:hover,
-.navigation-link:active {
+.navigation-link:active,
+.navigation-link:focus {
   opacity: 0.5;
 }
 
@@ -190,7 +192,8 @@ body {
   border-radius: 4px;
 }
 
-.navigation-button:not(:disabled):hover {
+.navigation-button:not(:disabled):hover,
+.navigation-button:not(:disabled):focus {
   background-color: #615048;
 }
 
@@ -443,7 +446,8 @@ body {
   background-color: #756157;
 }
 
-.button-all:not(:disabled):hover {
+.button-all:not(:disabled):hover,
+.button-all:not(:disabled):focus {
   background-color: #615048;
 }
 
@@ -531,7 +535,8 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-.newsletter-button:not(:disabled):hover {
+.newsletter-button:not(:disabled):hover,
+.newsletter-button:not(:disabled):focus {
   background-color: #68A2CA;
 }
 
@@ -1047,7 +1052,8 @@ body {
   display: block;
 }
 
-.breadcrumbs-catalog:hover {
+.breadcrumbs-catalog:hover,
+.breadcrumbs-catalog:focus {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1098,7 +1104,9 @@ body {
 }
 
 .control:hover .control-mark,
-.control:hover .control-label {
+.control:hover .control-label,
+.control:focus .control-mark,
+.control:focus .control-label {
   opacity: 0.6;
 }
 
@@ -1269,7 +1277,8 @@ body {
   padding: 8px 50px;
 }
 
-.button-submit:not(:disabled):hover {
+.button-submit:not(:disabled):hover,
+.button-submit:not(:disabled):focus {
   background-color: #68A2CA;
 }
 
@@ -1453,7 +1462,8 @@ body {
   background-color: #756157;
 }
 
-.button-more:not(:disabled):hover {
+.button-more:not(:disabled):hover,
+.button-more:not(:disabled):focus {
   background-color: #615048;
 }
 
@@ -1471,7 +1481,8 @@ body {
   background-color: #82B3D3;
 }
 
-.card-favourite:not(:disabled):hover {
+.card-favourite:not(:disabled):hover,
+.card-favourite:not(:disabled):focus {
   background-color: #68A2CA;
 }
 
@@ -1490,7 +1501,8 @@ body {
   background-color: #7DB54F;
 }
 
-.card-favourite-option:not(:disabled):hover {
+.card-favourite-option:not(:disabled):hover,
+.card-favourite-option:not(:disabled):focus {
   background-color: #6C9E42;
 }
 
