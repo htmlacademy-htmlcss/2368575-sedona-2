@@ -118,9 +118,13 @@ body {
 }
 
 .navigation-link:hover,
-.navigation-link:active,
 .navigation-link:focus {
   opacity: 0.5;
+}
+
+.navigation-link:active {
+  color: #756157;
+  opacity: 0.3;
 }
 
 .navigation-link-active::after {
